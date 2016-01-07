@@ -1,2 +1,2 @@
 # ESPS
-The goal of this project is to create four independent illuminated (ws2812) disc with pressure sensitive inputs, that will interact with each other to play the game simon.
+The goal of this project is to create four independent illuminated (ws2812) disc with pressure sensitive inputs, that will interact with each other to play the game simon. Each of the disc will be controlled by the esp8266 microcontroller. 
