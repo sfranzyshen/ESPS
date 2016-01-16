@@ -1,9 +1,9 @@
 # Goal
-The goal of this project is to create four illuminated disc that have pressure sensors. When stepped on they will interact with each other to play the game simon. Each of the disc will be controlled individually by an esp8266 wifi micro controller. 
+The goal of this project is to create four illuminated disc that have pressure sensors. When stepped on they will interact with each other to play the game simon. Each of the disc will be controlled individually by an esp8266 wifi micro controller. Additionally, any smart device (phone, tablet, PC, ...) can also interact and play along from within a web browser.
 # Design
 Software:
 
-The Arduino IDE port for the ESP8266 is being used for the firmware development. A "master" disc will manage the LED lights, wifi access point, DNS captive portal, HTTP server, websocket server, and the simon game play logic. Each of the other three "slave" disc will handle the LED lights, wifi/websocket connection to the master, and sending messages to the master when the disc is stepped on. 
+The Arduino IDE port for the ESP8266 is being used for the firmware development. A "master" disc will manage the LED lights, wifi access point, DNS captive portal, HTTP server, websocket server, and the simon game play logic. Each of the other three "slave" disc will handle the LED lights, wifi/websocket connection to the master, and sending messages to the master when the disc is stepped on. The HTTP server on the master disc provides smart devices a web based interface to observe or interact with the game play.
 
 Hardware:
 
